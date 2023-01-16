@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<title>|Febri Syawaldi|</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+
+		<link rel="stylesheet" href="css/aos.css">
+
+		<link rel="stylesheet" href="css/ionicons.min.css">
+		
+		<link rel="stylesheet" href="css/flaticon.css">
+		<link rel="stylesheet" href="css/icomoon.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<style>
+		.center {
+			display		: block;
+			margin-left	: auto;
+			margin-right: auto;
+		}
+
+		@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+		/* html, body { background: #333 url("https://codepen.io/images/classy_fabric.png"); } */
+
+		ul, li.lilian { display: block; }
+
+		#body2 {
+			/* left: 50%; */
+			width: 100%;
+			height: 405px;
+			display: block;
+			position: absolute;
+			/* margin-left: -305px; */
+		}
+
+		#body3 {
+			/* left: 50%; */
+			width: 100%;
+			height: 405px;
+			display: block;
+			position: absolute;
+			/* margin-left: -305px; */
+		}
+
+		#img-inner {
+			top: 0;
+			opacity: 0;
+			width: 100%;
+			height: 555px;
+			display: block;
+			position: absolute;
+			
+			transform: scale(0);
+			-moz-transform: scale(0);
+			-webkit-transform: scale(0);
+			
+			transition: all .7s ease-in-out;
+			-moz-transition: all .7s ease-in-out;
+			-webkit-transition: all .7s ease-in-out;
+		}
+
+		#img-inner img {
+			width: 100%;
+			height: 100%;
+		}
+
+		#img-inner:hover ~ label.sb-bignav { opacity: 0.5; }
+
+		label.sb-bignav:hover { opacity: 1; }
+
+		.sb-bignav {
+			/* width: 0; */
+			height		: 100%;
+			display		: none;
+			position	: absolute;
+			
+			/* opacity		: 0; */
+			z-index		: 9;
+			cursor		: pointer;
+			
+			transition			: opacity .2s;
+			-moz-transition		: opacity .2s;
+			-webkit-transition	: opacity .2s;
+			
+			color				: white;
+			font-size			: 100pt;
+			text-align			: center;
+			line-height			: 35pc;
+			background-color	: rgba(255, 255, 255, 0);
+			text-shadow			: 0px 0px 15px rgb(119, 119, 119);
+			margin-right		: -7%;
+    		margin-left			: -2%;
+		}
+
+		label[title="Next"] { right: 0; }
+
+		input:checked + li > #img-inner {
+			opacity: 1;
+				
+			transform: scale(1);
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+			
+			transition: opacity 1s ease-in-out;
+			-moz-transition: opacity 1s ease-in-out;
+			-webkit-transition: opacity 1s ease-in-out;
+		}
+
+		input:checked + li > label { display: block; }
+
+	</style>
+
+	<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="width: 100%;">
+	  
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+			<div class="container">
+			<a class="navbar-brand" href="index.html">Febri Syawaldi</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+				<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+				<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+				<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+				<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+				<!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
+				<!-- <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li> -->
+				<!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
+				<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+			</div>
+		</nav>
+
+		<section id="home-section" class="hero">
+			<div class="home-slider  owl-carousel" style="margin-bottom: 15%;">
+				<div class="slider-item ">
+					<div class="overlay"></div>
+					<div class="container">
+						<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+							<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/febrisyawaldi.jpg);">
+								<div class="overlay"></div>
+							</div>
+							<div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+								<div class="text">
+									<span class="subheading">Hello</span>
+									<h1 class="mb-4 mt-3"><span>Febri Syawaldi</span></h1>
+									<h2 class="mb-4">Web Programmer</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="slider-item">
+					<div class="overlay"></div>
+					<div class="container">
+					<div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+						<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.png);">
+							<div class="overlay"></div>
+						</div>
+						<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Hello!</span>
+								<h1 class="mb-4 mt-3">I'm a <span>web designer</span> based in London</h1>
+								<p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</section>
+
+		<section class="ftco-section ftco-no-pb" id="resume-section">
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+			<div class="col-md-10 heading-section text-center ftco-animate">
+				<h1 class="big big-2">Resume</h1>
+				<h2 class="mb-4">Resume</h2>
+			</div>
+			</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<span class="date">2018-2019</span>
+							<h2>Support Application</h2>
+							<span class="position">PT Khatulistiwa Nusantara Indonesia</span>
+							<p class="mt-4">Penempatan di Telkom Landmark Tower (Jakarta Selatan), detail pekerjaan menyiapkan data untuk di tampilkan, memantaince data dengan procedure, migrasi data dari database satu ke database lain, CRUD data.</p>
+						</div>
+						<div class="resume-wrap ftco-animate">
+							<span class="date">2019-2021</span>
+							<h2>Junior Development</h2>
+							<span class="position">PT Khatulistiwa Nusantara Indonesia</span>
+							<p class="mt-4">Penempatan di Cimahi, membuat front end, back end, dan database suatu application berdasarkan mockup dan kebutuhan yang disediakan.</p>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<span class="date">2021-Sekarang</span>
+							<h2>Senior Development</h2>
+							<span class="position">PT Khatulistiwa Nusantara Indonesia</span>
+							<p class="mt-4">Penempatan di Cimahi, membuat front end, back end, dan database suatu application berdasarkan mockup dan kebutuhan yang disediakan dan melanjutkan bagaimana aplikasi bisa berkembang, membahas dengan user untuk pertimbangan dampak positif dan negatif aplikasi.</p>
+						</div>
+						<div class="resume-wrap ftco-animate">
+							<span class="date">2022-Sekarang</span>
+							<h2>Design WIx</h2>
+							<span class="position">Selling Design Wix</span>
+							<p class="mt-4">Membuat Design Web di Website WIX dan di perjual-belikan di website marketplace yang menyediakan.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-4 col-lg-4 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay"></div>
+							<div class="img d-flex align-self-stretch align-items-center" style="background-color:black;">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+					<div class="col-md-12 heading-section ftco-animate">
+						<h1 class="big">About</h1>
+						<h2 class="mb-4">About Me</h2>
+						<ul class="about-info mt-4 px-md-0 px-2">
+							<li class="d-flex"><span>Nama:</span> <span>Febri Syawaldi</span></li>
+							<li class="d-flex"><span>Tanggal Lahir:</span> <span>Februari 01, 2000</span></li>
+							<li class="d-flex"><span>Alamat:</span> <span>JL Encep Kartawria No.5A</span></li>
+							<li class="d-flex"><span>Postal Code:</span> <span>40512</span></li>
+							<li class="d-flex"><span>Email:</span> <span>febrisyawaldi10@gmail.com</span></li>
+						</ul>
+					</div>
+					</div>
+				<div class="counter-wrap ftco-animate d-flex mt-md-3">
+				<div class="text">
+					<!-- <p class="mb-4">
+						<span class="number" data-number="120">0</span>
+						<span>Project complete</span>
+					</p> -->
+					<p><a target="_blank" href="/images/CV Febri Syawaldi.pdf" class="btn btn-primary py-3 px-3">Download CV</a></p>
+				</div>
+				</div>
+				</div>
+			</div>
+			</div>
+		</section>
+
+		<section class="ftco-section ftco-project" id="projects-section">
+			<div class="col-lg-12">
+
+				<!-- IPCA -->
+				<div class="row justify-content-center pb-5">
+					<div class="col-md-12 heading-section text-center ftco-animate">
+						<h1 class="big big-2">Projects</h1>
+						<h2 class="mb-4">Our Projects</h2>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+					</div>
+				</div>
+
+				<div class="row" style="margin-top: 5%;">
+					
+					<div class="col-md-12 justify-content-center">
+						<h1 class="text-center" style="font-weight: 900;">IPCA</h1>
+						<img class="center" src="/images/ipca_awal.png" alt="" style="width:50%;height:550px;"><br><br><br>
+						<h3 class="big big-2 text-center" style="font-weight: 900;">IPCA (Integrated premium cluster dan apartement)</h3><br><br>
+						<h6 class="text-center" style="color:white;margin-left: 20%;margin-right: 20%;display: block;">IPCA disini merupakan applikasi Telkom yang di peruntukan untuk :</h6>
+						<ul style="color:white;margin-left: 20%;margin-right: 20%;display: block;">
+							<li>Membuat polygon untuk mengetahui suatu area tempat berjualan sales.</li>
+							<li>Dengan ada nya polygon tersebut juga dapat memilih sasaran tempat berjualan yang masih berpontensi dengan menghitung jumlah sales dengan aplikasi IPCA ini,</li>
+							<li>Setelah semua dilakukan dan data sales sudah di inputkan kedalam aplikasi, maka aplikasi IPCA akan menghitung semua sales yang sudah di perjual belikan dengan <i><u>rumus-rumus</u></i> yang telah di tentukan.</li>
+							<li>Bahkan IPCA sampai menghitun bonus atau biasa di sebut KPI untuk setiap orang yang berjualan.</li>
+						</ul>
+
+						<br><br><br>
+						<h1 class="big big-2 text-center" style="font-weight: 900;">Framework yang digunakan</h1>
+						<img class="" src="/images/Framework.png" alt="" style="height:100px;margin-left: auto;margin-right	: auto;display: block;">
+					</div>
+				</div>
+
+				<div class="row" style="margin-top: 20%;">
+					<div class="col-md-6">
+						<div class="row justify-content-center pb-5">
+							<div class="col-md-12" style="margin: 10%;padding-left: 10%;">
+								<p class="mt-4 text-center ftco-animate">
+									<h1 style="font-weight: 900;margin-left: 25px;margin-bottom: 25px;">Map Polygon</h1>
+									<ul style="color:white;">
+										<li>Map disini bertujuan untuk tempat mempolygonisasi suatu area.</li>
+										<li>Kemudian untuk titik-titik(Point) merupakan tanda suatu ODP.</li>
+										<li>Kemudian untuk Polygon itu sendiri merupakan tanda suatu area tempat berjualan indihome.</li>
+										<li>Kemudian untuk warna-warna point merupakan tanda jumlah perangkat yang siap di pakai dan jumlah perangkat yang sudah terpakai.</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<img src="/images/maps_polygon.png" alt="" style="width:100%;height:600px;">
+					</div>
+				</div>
+
+				<div class="row" style="margin-top: 20%;">
+					<div class="col-md-6" style="padding-right: 5%;">
+						<ul id="body2">
+							<input type="radio" name="radio-btn" id="img-1" checked style="display: none;"/>
+							<li class="lilian" id="img-container">
+								<div id="img-inner">
+									<img src="/images/ipca_form1.png" style="width: 100%;height:550px;"/>
+								</div>
+								<label for="img-3" class="sb-bignav" title="Previous">&#x2039;</label>
+								<label for="img-2" class="sb-bignav" title="Next">&#x203a;</label>
+							</li>
+							
+							<input type="radio" name="radio-btn" id="img-2" style="display: none;"/>
+							<li class="lilian" id="img-container">
+								<div id="img-inner">
+									<img src="/images/ipca_form2.png" style="width: 100%;height:550px;"/>
+								</div>
+								<label for="img-1" class="sb-bignav" title="Previous">&#x2039;</label>
+								<label for="img-3" class="sb-bignav" title="Next">&#x203a;</label>
+							</li>
+							
+							<input type="radio" name="radio-btn" id="img-3" style="display: none;"/>
+							<li class="lilian" id="img-container">
+								<div id="img-inner">
+									<img src="/images/ipca_form3.png" style="width: 100%;height:550px;"/>
+								</div>
+								<label for="img-2" class="sb-bignav" title="Previous">&#x2039;</label>
+								<label for="img-1" class="sb-bignav" title="Next">&#x203a;</label>
+							</li>
+						
+						</ul>
+					</div>
+
+					<div class="col-md-6">
+						<div class="row justify-content-center pb-5">
+							<div class="col-md-12" style="margin: 10%;padding-left: 10%;">
+								<p class="mt-4 text-center ftco-animate">
+									<h1 style="font-weight: 900;margin-left: 25px;margin-bottom: 25px;">Wizard Step With Map</h1>
+									<p style="color:white;">Wizard dengan map dari plugin leaflet, bertujuan untuk memudahkan mempolygonisasi area, yang berfungsi memfokuskan dan menargetkan area-area untuk tempat penjualan sales.
+									</p>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row" style="margin-top: 20%;">
+					<div class="col-md-5">
+						<div class="row justify-content-center pb-5">
+							<div class="col-md-12" style="margin: 10%;padding-left: 10%;">
+								<h2 style="font-weight: 900;margin-left: 25px;margin-bottom: 25px;">Map Detail</h2>
+								<p class="" style="color: white;">
+									Map Profile berisikan polygon, ODP.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<img src="/images/map_profile.png" alt="" style="width:100%;height:600px;">
+					</div>
+				</div>
+
+				<!-- WPI -->
+				<div class="row" style="margin-top: 20%;">
+					<h1 class="col-md-12 justify-content-center pb-5 text-center" style="font-weight: 900;">WEB PARTNER</h1>
+					<div class="col-md-5">
+						<div class="row justify-content-center pb-5">
+							<div class="col-md-12" style="margin: 10%;padding-left: 10%;">
+								<h2 style="font-weight: 900;margin-left: 25px;margin-bottom: 25px;">HELP DESK WEB PARTNER</h2>
+								<p class="" style="color: white;">
+									Helpdesk Web Partner, berfungsi untuk membantu users mengenai suatu problem tentang penjualan, jumlah sales kurang tepat, bagaimana rumus-rumus KPI dan request perubahan data dengan metode approve.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<img src="/images/wpi_helpdesk.png" alt="" style="width:100%;height:600px;">
+					</div>
+				</div>
+
+				<div class="row" style="margin-top: 20%;">
+					<div class="col-md-7">
+						<img src="/images/wpi_mapping_user.png" alt="" style="width:100%;height:600px;">
+					</div>
+					<div class="col-md-5">
+						<div class="row justify-content-center pb-5">
+							<div class="col-md-12" style="margin: 10%;padding-left: 10%;">
+								<h2 style="font-weight: 900;margin-left: 25px;margin-bottom: 25px;">Mappping User</h2>
+								<p class="" style="color: white;">
+									Mapping Users di Web Partner, berfungsi untuk membantu memampingkan antara SPV dan SF untuk perhitungan KPI(reward).
+									Mapping Users di sini berdasarkan regional witel dan daerah penjualan masing-masing.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row" style="margin-top: 20%;">
+					<div class="col-md-5">
+						<div class="row justify-content-center pb-5">
+							<div class="col-md-12" style="margin: 10%;padding-left: 10%;">
+								<h2 style="font-weight: 900;margin-left: 25px;margin-bottom: 25px;">E Learning</h2>
+								<p class="" style="color: white;">
+									E-Learning Web Partner, di fungsikan untuk :<br>
+									<i style="color:white;">Admin</i> 
+										<ul style="color:white;">
+											<li>Membuat topik materi</li>
+											<li>Mengupload materi pembelajaran untuk sertifikasi</li>
+										</ul> 
+									<i style="color:white;">Users</i> 
+										<ul style="color:white;">
+											<li>Membaca kisi kisi untuk sertifikasi diri</li>
+										</ul> 
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<img src="/images/wpi_e_learning.png" alt="" style="width:100%;height:600px;">
+					</div>
+				</div>
+
+				<!-- CTB -->
+				<div class="row" style="margin-top: 20%;">
+					
+					<div class="col-md-12 justify-content-center">
+						<h1 class="text-center" style="font-weight: 900;">CTB</h1>
+						<img class="center" src="/images/CTB Dashboard.png" alt="" style="width:50%;height: 60%;"><br><br><br>
+						<h3 class="big big-2 text-center" style="font-weight: 900;">CTB (Caring Territory Based)</h3>
+						<h6 class="text-center" style="color:white;margin-left: 20%;margin-right: 20%;display: block;">CTB berisi kan Rekon rekon bersama user dan bersifat rahasia.</h6>
+					</div>
+				</div>
+
+				<!-- Samsnas Dashboard -->
+				<div class="row" style="margin-top: 20%;">
+					
+					<div class="col-md-12 justify-content-center">
+						<h1 class="text-center" style="font-weight: 900;">SAMSNAS</h1>
+						<img class="center" src="/images/Samsnas Dashboard.png" alt="" style="width:50%;height: 60%;"><br><br><br>
+						<h3 class="big big-2 text-center" style="font-weight: 900;">SAMSNAS (Subscriber Actvitation Management System Nasional)</h3>
+						<h6 class="text-center" style="color:white;margin-left: 20%;margin-right: 20%;display: block;">Samsnas adalah aplikasi terkait proses eksekusi isolir(menonaktifkan) terhadap pelanggan yang blm bayar tagihan indihome yang bersifat rahasia.</h6>
+					</div>
+				</div>
+
+				<!-- NEW SKILL -->
+				<h1 class="col-md-12 justify-content-center text-center" style="font-weight: 900;margin-top: 20%;">My New Skill 2022</h1>
+				<div class="row" style="margin-top: 2%;">
+					<div class="col-md-6">
+						<div class="row justify-content-center pb-5">
+							<div class="col-md-12" style="margin: 10%;padding-left: 10%;">
+								<p class="mt-4 text-center ftco-animate">
+									<h1 style="font-weight: 900;margin-left: 25px;margin-bottom: 25px;">Design awal SPBE</h1>
+									<h4>(Sistem Pemerintahan Berbasis Elektronik)</h4>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6" style="padding-right: 5%;">
+						<img src="/images/SPBE.png" alt="" style="width:100%;">
+					</div>
+				</div>
+				
+				<div class="row" style="margin-top: 20%;">
+					<div class="col-md-3">
+					</div>	
+
+						<div class="col-md-6">
+							<div class="row justify-content-center pb-5">
+								<img src="/images/pentaho-logo.png" style="width: 200px;height:200px;"/>
+
+								<div class="col-md-12">
+									<p class="mt-4 text-center ftco-animate">
+										<h1 class="text-center" style="font-weight: 900;margin-left: 25px;margin-bottom: 25px;">Pentaho</h1>
+										<p style="color: white;">Dipentaho saya pergunakan untuk migrasi Database, update insert delete data, dan pembuatan mart-mart yang memudahkan Back End dalam memunculkan data.</p>
+									</p>
+								</div>
+							</div>
+						</div>	
+						
+					<div class="col-md-3">
+					</div>	
+				</div>
+
+			</div>
+		</section>
+
+		<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+			<div class="container">
+				<div class="row justify-content-center mb-5 pb-3">
+					<div class="col-md-7 heading-section text-center ftco-animate">
+						<h1 class="big big-2">Contact</h1>
+						<h2 class="mb-4">Contact Me</h2>
+						<p>Febri Syawaldi</p>
+					</div>
+				</div>
+
+				<div class="row d-flex contact-info justify-content-center mb-5">
+					<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+						<div class="align-self-stretch box p-4 text-center">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="icon-map-signs"></span>
+							</div>
+							<h3 class="mb-4">Address</h3>
+							<p>JL Encep Kartawria No.5A</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+						<div class="align-self-stretch box p-4 text-center">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="icon-phone2"></span>
+							</div>
+							<h3 class="mb-4">Contact Number</h3>
+							<p><a href="tel://085158820295">085158820295</a></p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+						<div class="align-self-stretch box p-4 text-center">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="icon-paper-plane"></span>
+							</div>
+							<h3 class="mb-4">Email Address</h3>
+							<p><a href="mailto:febrisyawaldi10@gmail.com">febrisyawaldi10@gmail.com</a></p>
+						</div>
+					</div>
+					<!-- <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+						<div class="align-self-stretch box p-4 text-center">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="icon-globe"></span>
+							</div>
+							<h3 class="mb-4">Website</h3>
+							<p><a href="#">yoursite.com</a></p>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</section>
+
+		<footer class="ftco-footer ftco-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p>Febri Syawaldi</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- loader -->
+		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-migrate-3.0.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/aos.js"></script>
+		<script src="js/jquery.animateNumber.min.js"></script>
+		<script src="js/scrollax.min.js"></script>
+		
+		<script src="js/main.js"></script>
+		
+	</body>
+</html>
